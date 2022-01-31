@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace calculator
 {
-    internal class sub
+    internal class Add
     {
-        public int subtract(int x, int y)
-        { return x - y; }
-
-
+        public int add(int x, int y)
+        { return x + y; }
     }
 }
