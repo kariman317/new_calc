@@ -6,8 +6,11 @@ namespace calculator
     {
         static void Main(string[] args)
         {
-               sub sub=new sub();
+              sub sub=new sub();
             Console.WriteLine(sub.subtract(9, 6));
+            multiply Multi = new multiply();
+           Console.WriteLine( Multi.multiplyNum(2, 4));
+
         }
     }
 }
